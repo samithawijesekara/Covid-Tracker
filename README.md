@@ -3,7 +3,7 @@ Track Covid Stats in Sri Lanka &amp; Global
 
 ![Code quality score](https://www.code-inspector.com/project/18188/score/svg) ![Quality grade](https://www.code-inspector.com/project/18188/status/svg)
 
-💻😍 You can use this link to send me a message : 
+💻😍 You can use this link to send me a message : https://covid-tracker-srilanka.netlify.app/
 
 ### Table of Content
 -01 [What is this?](#What)</br>
