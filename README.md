@@ -18,7 +18,7 @@ This is a COVID stats tracker webapp.<br>
 <img src="img/a.PNG"><br><br>
 
 ## For why?<a name="why"/>
-From using this you can see the latest COVID stats in Sri Lanka and worldwide.😉😎<br>
+From using this you can see the latest COVID stats in Sri Lanka and worldwide. 🌎<br>
 
 ## What are the technologies used?<a name="technologies"/>
 - HTML
