@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
 /*===================Loader start here======================================*/
 
 .loader-wrap {
@@ -60,8 +59,10 @@
 
 /*===================Loader ends here======================================*/
 
+html,
 body {
     background-color: #C76C28;
+    max-width: 100%;
     overflow-x: hidden;
     /*===================Body Animation start here======================================*/
     background: #C76C28 url('img/back.png') repeat 0 0;
