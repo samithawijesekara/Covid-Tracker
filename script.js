@@ -1,20 +1,3 @@
-//Page loader functionality================================================================
-document.onreadystatechange = function() {
-    var state = document.readyState();
-
-    if (state == 'interactive') {
-        document.getElementById('contain').style.visibility = "hidden";
-
-    } else if (state == 'complete') {
-        setTimeout(function() {
-            document.getElementById('interactive');
-            document.getElementById('loader').style.visibility = "hidden";
-            document.getElementById('contain').style.visibility = "visible";
-        }, 2000);
-    }
-}
-
-
 //Get data from API======================================================================
 const numFormat = new Intl.NumberFormat('en-EN', { maximumFractionDigits: 0 });
 
