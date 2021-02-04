@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 /*===================Loader start here======================================*/
 
 .loader-wrap {
@@ -381,3 +382,38 @@ a:hover {
         overflow-y: hidden;
     }
 }
+
+
+/*Tooltip styles start======================================================================*/
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.2s;
+    visibility: visible;
+}
+
+[data-title]:after {
+    content: attr(data-title);
+    background-color: #222222;
+    color: #E6E7E8;
+    font-size: 100%;
+    position: absolute;
+    border-radius: 7px;
+    padding: 1px 5px 2px 5px;
+    top: -2em;
+    left: calc(50%);
+    transform: translateX(-50%);
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0;
+    border: 1px solid #111111;
+    z-index: 99999;
+    visibility: hidden;
+}
+
+[data-title] {
+    position: relative;
+}
+
+
+/*Tooltip styles end======================================================================*/
